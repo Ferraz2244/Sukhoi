@@ -1,0 +1,72 @@
+
+/* Estilização do cabeçalho */
+header {
+  background-color: #f8f9fa; /* Define a cor de fundo azul escuro */
+  color: black; /* Define a cor do texto como branco */
+  padding: 10px 20px; /* Espaçamento interno no topo, baixo, esquerda e direita */
+  display: flex; /* Alinha os elementos horizontalmente */
+  align-items: center; /* Centraliza os itens verticalmente */
+}
+
+.logo {
+  height: 120px; /* Define a altura da logo */
+  margin-right: 40px; /* Espaço entre a logo e o título */
+
+}
+
+header h1 {
+  font-size: 22px; /* Define o tamanho da fonte do título */
+}
+
+/* Estilização da navegação */
+nav {
+  background-color: #0055a5; /* Define a cor de fundo do menu */
+}
+
+nav ul {
+  list-style: none; /* Remove os marcadores da lista */
+  display: flex; /* Organiza os itens em linha */
+  justify-content: center; /* Centraliza os itens horizontalmente */
+  padding: 10px 0; /* Espaçamento vertical */
+  margin: 0; /* Remove a margem padrão */
+}
+
+nav ul li {
+  margin: 0 20px; /* Espaço entre os itens da lista */
+}
+
+nav ul li a {
+  color: white; /* Define a cor dos links como branco */
+  text-decoration: none; /* Remove o sublinhado dos links */
+  font-weight: bold; /* Deixa o texto em negrito */
+  transition: color 0.3s; /* Suaviza a mudança de cor ao passar o mouse */
+}
+
+nav ul li a:hover {
+  color: #bee9e8; /* Muda a cor ao passar o mouse */
+}
+
+/* Estilização do conteúdo principal */
+main {
+  flex: 1; /* Faz o conteúdo crescer para ocupar o espaço restante */
+  padding: 30px 20px; /* Espaçamento interno nas laterais e verticalmente */
+  background-color: #cae9ff; /* Fundo branco para o conteúdo */
+}
+
+/* Estilização geral da página e rodapé */
+html, body {
+  height: 100%; /* Define altura total da página */
+  margin: 0; /* Remove margem padrão */
+  display: flex; /* Ativa o layout flexível */
+  flex-direction: column; /* Coloca os elementos em coluna */
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Define a fonte do texto */
+}
+
+footer {
+  background-color: #003366; /* Cor de fundo azul escuro */
+  color: white; /* Texto branco */
+  text-align: center; /* Centraliza o texto */
+  padding: 15px 10px; /* Espaçamento interno */
+  font-size: 14px; /* Tamanho da fonte */
+}
+
