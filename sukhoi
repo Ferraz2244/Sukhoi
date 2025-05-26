@@ -1,0 +1,36 @@
+<!DOCTYPE html> <!-- Define o tipo de documento como HTML5 -->
+<html lang="pt-BR"> <!-- Define o idioma da página como português -->
+<head>
+  <meta charset="UTF-8"> <!-- Define o conjunto de caracteres UTF-8 -->
+  <title>Meu Site FIEC</title> <!-- Define o título da aba do navegador -->
+  <link rel="stylesheet" href="style.css"> <!-- Conecta o HTML ao arquivo de estilos CSS -->
+</head>
+<body> <!-- Início do corpo do site -->
+
+  <header> <!-- Início da seção de cabeçalho -->
+    <img src="https://upload.wikimedia.org/wikipedia/fr/thumb/3/34/Sukhoi_Company_logo.svg/2560px-Sukhoi_Company_logo.svg.png" alt="Logo Sukhoi" class="logo"> <!-- Insere a imagem da logo -->
+    <h1>Sukhoi Aviation Corporation</h1> <!-- Texto do título principal -->
+  </header> <!-- Fim da seção de cabeçalho -->
+
+  <nav> <!-- Início da navegação -->
+    <ul> <!-- Lista de navegação -->
+      <li><a href="#">Início</a></li> <!-- Link para a página inicial -->
+      <li><a href="#">Cursos</a></li> <!-- Link para os cursos -->
+      <li><a href="#">Contato</a></li> <!-- Link para contato -->
+    </ul>
+  </nav> <!-- Fim da navegação -->
+
+  <main> <!-- Início do conteúdo principal -->
+    <h2>Bem-vindo!</h2> <!-- Título secundário -->
+    <p>
+A Sukhoi é uma das mais renomadas fabricantes de aeronaves do mundo, reconhecida por sua excelência em engenharia, inovação e desempenho. Com uma história marcada por conquistas no setor aeroespacial, nossos caças, aviões civis e projetos avançados simbolizam o poder da tecnologia russa e a busca contínua pela superioridade nos céus..</p> <!-- Parágrafo de introdução -->
+     <h2>Sobre nós!</h2>
+    <p>Fundada em 1939, a Sukhoi é uma empresa de origem russa que atua no desenvolvimento, produção e modernização de aeronaves militares e civis. Parte do conglomerado United Aircraft Corporation, somos responsáveis por ícones da aviação como o Su-27, Su-30, Su-35 e o caça de quinta geração Su-57. Nossa missão é criar soluções aéreas que unam poder, precisão e tecnologia de ponta, atendendo às demandas estratégicas da defesa nacional e do mercado internacional.!</p> <!-- Parágrafo complementar -->
+  </main> <!-- Fim do conteúdo principal -->
+
+  <footer> <!-- Início do rodapé -->
+    <p>&copy; 2025 - Sukhoi | Todos os direitos reservados.</p> <!-- Texto do rodapé -->
+  </footer> <!-- Fim do rodapé -->
+
+</body>
+</html> <!-- Fim do documento HTML -->
